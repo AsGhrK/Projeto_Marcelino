@@ -1,0 +1,27 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/style/page.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.page_corpo__ix1An {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: rgb(139, 252, 254);
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page_card___p0UR {
+    margin-top: auto;
+    display: flex;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}

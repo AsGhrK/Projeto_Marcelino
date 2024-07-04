@@ -1,0 +1,10 @@
+.carregamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,12 +1,9 @@
 import Image from "next/image";
-import "./styles.css";
-import Link from "next/link";
+import style from "../app/style/page.module.css";
+import Main from "@/components/Main";
 
-export default function Home() {
-
+export default async function Home() {
   return (
-    <main>
-     
-    </main>
+    <Main />
   );
 }
