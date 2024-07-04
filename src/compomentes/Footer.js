@@ -13,8 +13,8 @@ export function Footer() {
                         <li className={style.navli}><Image width={50} height={50} src={"https://cdn-icons-png.flaticon.com/512/187/187189.png"} /></li>
                     </ul>
                 </nav>
-                <h1 className={style.h1}>Carros Luxosos</h1>
-                <Image width={100} height={100} src={"imagem de carro"} />
+                <h1 className={style.h1}>Carros Luxuosos</h1>
+                <Image width={100} height={100} src={"https://cdn.iconscout.com/icon/premium/png-512-thumb/arrastar-carro-3600143-3001198.png?f=webp&w=256"} />
             </header>
 
         </div>

@@ -5,8 +5,8 @@ export function Header() {
 
         <div className={style.body}>
             <header className={style.headar}>
-                <Image width={100} height={100} src={"imagm de carro"} />
-                <h1 className={style.h1}>Minha loja</h1>
+                <Image width={100} height={100} src={"https://cdn.iconscout.com/icon/premium/png-512-thumb/arrastar-carro-3600143-3001198.png?f=webp&w=256"} />
+                <h1 className={style.h1}>Carros Luxuosos</h1>
                 <nav className={style.nav}>
                     <ul className={style.navul}>
                         <li className={style.navli}> <Image width={50} height={50} src={"https://cdn-icons-png.flaticon.com/512/126/126510.png"} />  </li>
