@@ -7,7 +7,7 @@ export default function NotFound() {
         <div className={style.notfoundcontainer}>
             <Link href={"/"}>
                 <h1 className={style.h1notfound}>Página não encontrada</h1>
-                <Image width={500} height={500} src={"https://img.freepik.com/fotos-premium/uma-fotografia-de-uma-lhama-alpaca-fofa-e-adoravel_727939-14054.jpg"} />
+                <Image width={1000} height={500} src={"https://gringo.com.vc/wp-content/uploads/2022/05/bumerangueseguros.com_.br-bateram-no-meu-carro-e-fugiram-2.jpeg"} />
             </Link>
         </div>
     )

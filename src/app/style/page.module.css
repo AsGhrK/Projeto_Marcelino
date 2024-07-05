@@ -5,20 +5,61 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
-    background-color: rgb(139, 252, 254);
-    font-size: 12px;
+    background-color: #f0f0f0; /* Light grey background */
+    font-size: 14px;
     font-family: 'Roboto', sans-serif;
-}
-
-.card {
+    padding: 20px;
+  }
+  
+  .card {
     margin-top: auto;
     display: flex;
     width: 300px;
     height: auto;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #ffffff; /* White background for cards */
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     padding: 20px;
-}
+  }
+  
+  .h1, .h2, .preco {
+    color: #333333; /* Dark grey text */
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007acc; /* Blue button for contrast */
+    color: #ffffff; /* White text on buttons */
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #005f99; /* Darker blue on hover */
+  }
+  
+  .filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+  
+  .filters div {
+    margin-bottom: 10px;
+  }
+  

@@ -80,24 +80,25 @@ export default function Main() {
             value={textSearch}
             placeholder="Pesquise um produto"
             onChange={(event) => search(event.target.value)}
+            className={style.input}
           />
         </div>
         <div>
-          <button onClick={orderAz}>A - Z</button>
-          <button onClick={orderZa}>Z - A</button>
-          <button onClick={orderPrecoMenor}>Menor preço</button>
-          <button onClick={orderPrecoMaior}>Maior preço</button>
+          <button onClick={orderAz} className={style.button}>A - Z</button>
+          <button onClick={orderZa} className={style.button}>Z - A</button>
+          <button onClick={orderPrecoMenor} className={style.button}>Menor preço</button>
+          <button onClick={orderPrecoMaior} className={style.button}>Maior preço</button>
         </div>
       </div>
       <main className={style.corpo}>
         {listProduct.map((carros) => (
           <div className={style.card} key={carros.id}>
             <Image width={300} height={300} src={carros.imagem} alt={carros.modelo} />
-            <h1>{carros.modelo} - {carros.anoDoCarro}</h1>
-            <h2>{carros.marca}</h2>
+            <h1 className={style.h1}>{carros.modelo} - {carros.anoDoCarro}</h1>
+            <h2 className={style.h2}>{carros.marca}</h2>
             <h3 className={style.preco}>R$: {carros.preco}</h3>
-            <Link href={"/api/" + carros.id}>
-              <button>Ver mais</button>
+            <Link href={"/product/"  + carros.id}>
+              <button className={style.button}>Ver mais</button>
             </Link>
           </div>
         ))}

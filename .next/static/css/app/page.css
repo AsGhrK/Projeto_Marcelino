@@ -8,23 +8,64 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
-    background-color: rgb(139, 252, 254);
-    font-size: 12px;
+    background-color: #f0f0f0; /* Light grey background */
+    font-size: 14px;
     font-family: 'Roboto', sans-serif;
-}
-
-.page_card___p0UR {
+    padding: 20px;
+  }
+  
+  .page_card___p0UR {
     margin-top: auto;
     display: flex;
     width: 300px;
     height: auto;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #ffffff; /* White background for cards */
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     padding: 20px;
-}
+  }
+  
+  .page_h1__fDcTq, .page_h2__oEqme, .page_preco__WDGqC {
+    color: #333333; /* Dark grey text */
+  }
+  
+  .page_input__R5NHP {
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .page_button__mSQwH {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007acc; /* Blue button for contrast */
+    color: #ffffff; /* White text on buttons */
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .page_button__mSQwH:hover {
+    background-color: #005f99; /* Darker blue on hover */
+  }
+  
+  .page_filters__g1iKD {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+  
+  .page_filters__g1iKD div {
+    margin-bottom: 10px;
+  }
+  
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/style/carregamento.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/

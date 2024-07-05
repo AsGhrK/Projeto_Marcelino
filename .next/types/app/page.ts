@@ -1,4 +1,4 @@
-// File: C:\Users\laboratorio\Downloads\ProjetoFinal-PTAC3-main\ProjetoFinal-PTAC3-main\Projeto_Marcelino\src\app\page.js
+// File: C:\Users\laboratorio\picolo\Projeto_Marcelino\src\app\page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

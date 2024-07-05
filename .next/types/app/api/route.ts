@@ -1,4 +1,4 @@
-// File: C:\Users\laboratorio\Downloads\ProjetoFinal-PTAC3-main\ProjetoFinal-PTAC3-main\Projeto_Marcelino\src\app\api\route.js
+// File: C:\Users\laboratorio\picolo\Projeto_Marcelino\src\app\api\route.js
 import * as entry from '../../../../src/app/api/route.js'
 import type { NextRequest } from 'next/server.js'
 

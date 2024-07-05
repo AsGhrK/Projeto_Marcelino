@@ -9,12 +9,9 @@ export function Header() {
                 <h1 className={style.h1}>Carros Luxuosos</h1>
                 <nav className={style.nav}>
                     <ul className={style.navul}>
-                        <li className={style.navli}> <Image width={50} height={50} src={"https://cdn-icons-png.flaticon.com/512/126/126510.png"} />  </li>
+                        <li className={style.navli}> <Image width={20} height={20} src={"https://cdn-icons-png.flaticon.com/512/126/126510.png"} />  </li>
                         <li className={style.navli}>Usuários</li>
                         <li className={style.navli}>Suporte</li>
-                        <li className={style.navlibutton}><button>Adcionar novo produto</button></li>
-                        <li className={style.navliinput}><input></input></li>
-                        <li className={style.navlibutton}><button>Buscar</button></li>
                     </ul>
                     <h1 className={style.h1}>Encontre os melhores carros de luxo na nossa loja!</h1>
                 </nav>
